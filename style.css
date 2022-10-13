@@ -1,3 +1,6 @@
+body{
+    margin:auto;
+}
 #heading1 {
     display: flex;
     justify-content: center;
