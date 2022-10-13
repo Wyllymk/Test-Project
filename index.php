@@ -7,7 +7,16 @@
 
   if($op == "+"){
     echo $num1 + $num2;
+  }elseif ($op == "-"){
+    echo $num1 - $num2;
+  }elseif($op == "*"){
+    echo $num1 * $num2;
+  }elseif($op == "/"){
+    echo $num1 / $num2;
+  }else{
+    echo "The operator is not recognized."
   }
+
 
 
 
