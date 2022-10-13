@@ -1,18 +1,10 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-<body>
-
-  <h3>Calculator</h3>
-  <form action="trial.php" method="post">
-    
-    Number: <input type="number" name="num"> <br><br>
-
-    <input type="submit"> 
-  </form>
-<br>
 <?php
+
+  $num1 = $_POST["num1"]
+  $num2 = $_POST["num2"]
+  $op = $_POST["op"]
+
+
 
   function cube($num){
    return $num * $num * $num;
@@ -23,6 +15,3 @@
   echo $cubeResult
 
 ?>
-
-</body>
-</html> 
