@@ -1,1 +1,28 @@
-<h1>Hello World</h1>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+  <h3>Enter a number to get the cube:</h3>
+  <form action="trial.php" method="post">
+    
+    Number: <input type="number" name="num"> <br><br>
+
+    <input type="submit"> 
+  </form>
+<br>
+<?php
+
+  function cube($num){
+   return $num * $num * $num;
+  }
+
+  $cubeResult = cube($_POST["num"]);
+  
+  echo $cubeResult
+
+?>
+
+</body>
+</html> 
