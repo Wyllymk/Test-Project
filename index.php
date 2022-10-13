@@ -4,7 +4,7 @@
   </head>
 <body>
 
-  <h3>Enter a number to get the cube:</h3>
+  <h3>Calculator</h3>
   <form action="trial.php" method="post">
     
     Number: <input type="number" name="num"> <br><br>
